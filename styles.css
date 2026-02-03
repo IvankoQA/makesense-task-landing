@@ -1,0 +1,39 @@
+body.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+div.solutions {
+    background-color: rgb(12, 17, 39); 
+    color: white;                     
+    padding: 20px;
+    display: flex;                    
+    flex-wrap: wrap;                  
+    gap: 20px;                        
+}
+
+div.solution-item {
+    box-sizing: border-box;
+    flex: 1 1 calc(25% - 15px); 
+    background-color: rgb(19, 22, 49);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+div.solution-item p {
+    color: #868ba3;
+}
+
+div.solutions-title {
+    width: 100%;                      
+    text-align: center;
+    margin-bottom: 20px;              
+}
+
+div.solutions-title h3 {
+    color: #ddd0f7;
+}
+
+div.solutions-title p {
+    color: #868ba3;
+}
